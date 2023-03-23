@@ -1,0 +1,1425 @@
+PACKAGE NAME: base-files
+PACKAGE VERSION: 3.0.14
+RECIPE NAME: base-files
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: base-files-board
+PACKAGE VERSION: 2023.1
+RECIPE NAME: base-files-board
+LICENSE: MIT
+
+PACKAGE NAME: base-files-board-variant
+PACKAGE VERSION: 2023.1
+RECIPE NAME: base-files-board-variant
+LICENSE: MIT
+
+PACKAGE NAME: base-files-plnx
+PACKAGE VERSION: 2023.1
+RECIPE NAME: base-files-plnx
+LICENSE: MIT
+
+PACKAGE NAME: base-files-soc
+PACKAGE VERSION: 2023.1
+RECIPE NAME: base-files-soc
+LICENSE: MIT
+
+PACKAGE NAME: base-passwd
+PACKAGE VERSION: 3.5.52
+RECIPE NAME: base-passwd
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: bash
+PACKAGE VERSION: 5.1.16
+RECIPE NAME: bash
+LICENSE: GPL-3.0-or-later
+
+PACKAGE NAME: bridge-utils
+PACKAGE VERSION: 1.7.1
+RECIPE NAME: bridge-utils
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: busybox
+PACKAGE VERSION: 1.35.0
+RECIPE NAME: busybox
+LICENSE: GPL-2.0-only & bzip2-1.0.4
+
+PACKAGE NAME: busybox-hwclock
+PACKAGE VERSION: 1.35.0
+RECIPE NAME: busybox
+LICENSE: GPL-2.0-only & bzip2-1.0.4
+
+PACKAGE NAME: busybox-inetd
+PACKAGE VERSION: 1.35.0
+RECIPE NAME: busybox
+LICENSE: GPL-2.0-only & bzip2-1.0.4
+
+PACKAGE NAME: busybox-syslog
+PACKAGE VERSION: 1.35.0
+RECIPE NAME: busybox
+LICENSE: GPL-2.0-only & bzip2-1.0.4
+
+PACKAGE NAME: busybox-udhcpc
+PACKAGE VERSION: 1.35.0
+RECIPE NAME: busybox
+LICENSE: GPL-2.0-only & bzip2-1.0.4
+
+PACKAGE NAME: ca-certificates
+PACKAGE VERSION: 20211016
+RECIPE NAME: ca-certificates
+LICENSE: GPL-2.0-or-later & MPL-2.0
+
+PACKAGE NAME: can-utils
+PACKAGE VERSION: 2021.08.0
+RECIPE NAME: can-utils
+LICENSE: GPL-2.0-only & BSD-3-Clause
+
+PACKAGE NAME: dbus
+PACKAGE VERSION: 1.14.4
+RECIPE NAME: dbus
+LICENSE: AFL-2.1 | GPL-2.0-or-later
+
+PACKAGE NAME: dbus-common
+PACKAGE VERSION: 1.14.4
+RECIPE NAME: dbus
+LICENSE: AFL-2.1 | GPL-2.0-or-later
+
+PACKAGE NAME: dbus-lib
+PACKAGE VERSION: 1.14.4
+RECIPE NAME: dbus
+LICENSE: AFL-2.1 | GPL-2.0-or-later
+
+PACKAGE NAME: dbus-tools
+PACKAGE VERSION: 1.14.4
+RECIPE NAME: dbus
+LICENSE: AFL-2.1 | GPL-2.0-or-later
+
+PACKAGE NAME: device-tree
+PACKAGE VERSION: xilinx-v2023.1+gitAUTOINC+ea2774cabb
+RECIPE NAME: device-tree
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: dtc
+PACKAGE VERSION: 1.6.1
+RECIPE NAME: dtc
+LICENSE: GPL-2.0-only | BSD-2-Clause
+
+PACKAGE NAME: e2fsprogs-e2fsck
+PACKAGE VERSION: 1.46.5
+RECIPE NAME: e2fsprogs
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: e2fsprogs-mke2fs
+PACKAGE VERSION: 1.46.5
+RECIPE NAME: e2fsprogs
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: expat
+PACKAGE VERSION: 2.5.0
+RECIPE NAME: expat
+LICENSE: MIT
+
+PACKAGE NAME: fpga-manager-script
+PACKAGE VERSION: 1.0
+RECIPE NAME: fpga-manager-script
+LICENSE: Proprietary
+
+PACKAGE NAME: gdbm
+PACKAGE VERSION: 1.23
+RECIPE NAME: gdbm
+LICENSE: GPL-3.0-only
+
+PACKAGE NAME: gdbm-compat
+PACKAGE VERSION: 1.23
+RECIPE NAME: gdbm
+LICENSE: GPL-3.0-only
+
+PACKAGE NAME: glibc
+PACKAGE VERSION: 2.36
+RECIPE NAME: glibc
+LICENSE: GPL-2.0-only & LGPL-2.1-only
+
+PACKAGE NAME: init-ifupdown
+PACKAGE VERSION: 1.0
+RECIPE NAME: init-ifupdown
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: initscripts-functions
+PACKAGE VERSION: 1.0
+RECIPE NAME: initscripts
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: iproute2
+PACKAGE VERSION: 5.19.0
+RECIPE NAME: iproute2
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: iproute2-ip
+PACKAGE VERSION: 5.19.0
+RECIPE NAME: iproute2
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: kbd
+PACKAGE VERSION: 2.5.1
+RECIPE NAME: kbd
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: kbd-consolefonts
+PACKAGE VERSION: 2.5.1
+RECIPE NAME: kbd
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: kbd-keymaps
+PACKAGE VERSION: 2.5.1
+RECIPE NAME: kbd
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: kernel-base
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-image-image
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-ccm-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-cfg80211-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-cls-cgroup-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-crc7-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-cxd2880-spi-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-ebt-mark-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-ebtable-filter-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-ebtable-nat-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-ebtables-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-efivarfs-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-g-ether-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-g-mass-storage-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-g-serial-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-ip6-udp-tunnel-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-ipt-reject-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-iptable-filter-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-iptable-nat-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-libarc4-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-mac80211-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-mpls-gso-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-mtd-nandbiterrs-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-mtd-nandecctest-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-mtd-oobtest-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-mtd-pagetest-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-mtd-readtest-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-mtd-speedtest-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-mtd-stresstest-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-mtd-subpagetest-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-mtd-torturetest-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-nf-nat-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-nf-nat-ftp-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-nf-nat-snmp-basic-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-nf-nat-tftp-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-nf-reject-ipv4-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-nsh-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-openvswitch-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-rpmsg-char-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-rpmsg-core-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-rpmsg-ctrl-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-rpmsg-ns-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-udp-tunnel-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-uio-dmem-genirq-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-uio-pdrv-genirq-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-uio-xilinx-ai-engine-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-usb-f-obex-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-usb-f-serial-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-usb2244-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-usb5744-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-virtio-rpmsg-bus-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-vport-vxlan-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-vxlan-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-wl18xx-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-wlcore-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-wlcore-sdio-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-wlcore-spi-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-xen-blkback-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-xen-gntalloc-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-xen-gntdev-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-xen-netback-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-xen-pciback-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-xen-scsifront-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-xen-wdt-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-xlnx-vcu-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-xt-addrtype-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-xt-checksum-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-xt-conntrack-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-xt-masquerade-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-xt-nat-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-xt-state-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-module-zynqmp-r5-remoteproc-6.1.5-xilinx-v2023.1
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kernel-modules
+PACKAGE VERSION: 6.1.5-xilinx-v2023.1+gitAUTOINC+c3a3550b2d
+RECIPE NAME: linux-xlnx
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: kmod
+PACKAGE VERSION: 30
+RECIPE NAME: kmod
+LICENSE: GPL-2.0-or-later & LGPL-2.1-or-later
+
+PACKAGE NAME: ldconfig
+PACKAGE VERSION: 2.36
+RECIPE NAME: glibc
+LICENSE: GPL-2.0-only & LGPL-2.1-only
+
+PACKAGE NAME: libacl
+PACKAGE VERSION: 2.3.1
+RECIPE NAME: acl
+LICENSE: LGPL-2.1-or-later
+
+PACKAGE NAME: libattr
+PACKAGE VERSION: 2.5.1
+RECIPE NAME: attr
+LICENSE: LGPL-2.1-or-later
+
+PACKAGE NAME: libbz2
+PACKAGE VERSION: 1.0.8
+RECIPE NAME: bzip2
+LICENSE: bzip2-1.0.6
+
+PACKAGE NAME: libcap
+PACKAGE VERSION: 2.66
+RECIPE NAME: libcap
+LICENSE: BSD-3-Clause | GPL-2.0-only
+
+PACKAGE NAME: libcomerr
+PACKAGE VERSION: 1.46.5
+RECIPE NAME: e2fsprogs
+LICENSE: GPL-2.0-only & LGPL-2.0-only & BSD-3-Clause & MIT
+
+PACKAGE NAME: libcrypto
+PACKAGE VERSION: 3.0.7
+RECIPE NAME: openssl
+LICENSE: Apache-2.0
+
+PACKAGE NAME: libdfx
+PACKAGE VERSION: 2023.1
+RECIPE NAME: libdfx
+LICENSE: MIT & GPL-2.0-or-later
+
+PACKAGE NAME: libe2p
+PACKAGE VERSION: 1.46.5
+RECIPE NAME: e2fsprogs
+LICENSE: GPL-2.0-only & LGPL-2.0-only & BSD-3-Clause & MIT
+
+PACKAGE NAME: libelf
+PACKAGE VERSION: 0.187
+RECIPE NAME: elfutils
+LICENSE: GPL-2.0-only | LGPL-3.0-or-later
+
+PACKAGE NAME: libext2fs
+PACKAGE VERSION: 1.46.5
+RECIPE NAME: e2fsprogs
+LICENSE: GPL-2.0-only & LGPL-2.0-only & BSD-3-Clause & MIT
+
+PACKAGE NAME: libffi
+PACKAGE VERSION: 3.4.4
+RECIPE NAME: libffi
+LICENSE: MIT
+
+PACKAGE NAME: libgcc
+PACKAGE VERSION: 12.2.0
+RECIPE NAME: libgcc
+LICENSE: GPL-3.0-with-GCC-exception
+
+PACKAGE NAME: libkmod
+PACKAGE VERSION: 30
+RECIPE NAME: kmod
+LICENSE: LGPL-2.1-or-later
+
+PACKAGE NAME: liblzma
+PACKAGE VERSION: 5.2.6
+RECIPE NAME: xz
+LICENSE: PD
+
+PACKAGE NAME: libmnl
+PACKAGE VERSION: 1.0.5
+RECIPE NAME: libmnl
+LICENSE: LGPL-2.1-or-later
+
+PACKAGE NAME: libnsl2
+PACKAGE VERSION: 2.0.0
+RECIPE NAME: libnsl2
+LICENSE: LGPL-2.1-only
+
+PACKAGE NAME: libnss-myhostname
+PACKAGE VERSION: 251.8
+RECIPE NAME: systemd
+LICENSE: GPL-2.0-only & LGPL-2.1-only
+
+PACKAGE NAME: libpam
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: libpam-runtime
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: libpci
+PACKAGE VERSION: 3.8.0
+RECIPE NAME: pciutils
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: libpython3
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: libseccomp
+PACKAGE VERSION: 2.5.4
+RECIPE NAME: libseccomp
+LICENSE: LGPL-2.1-only
+
+PACKAGE NAME: libsqlite3
+PACKAGE VERSION: 3.39.3
+RECIPE NAME: sqlite3
+LICENSE: PD
+
+PACKAGE NAME: libssl
+PACKAGE VERSION: 3.0.7
+RECIPE NAME: openssl
+LICENSE: Apache-2.0
+
+PACKAGE NAME: libstdc++
+PACKAGE VERSION: 12.2.0
+RECIPE NAME: gcc-runtime
+LICENSE: GPL-3.0-with-GCC-exception
+
+PACKAGE NAME: libsystemd
+PACKAGE VERSION: 251.8
+RECIPE NAME: systemd
+LICENSE: GPL-2.0-only & LGPL-2.1-only
+
+PACKAGE NAME: libsystemd-shared
+PACKAGE VERSION: 251.8
+RECIPE NAME: systemd
+LICENSE: GPL-2.0-only & LGPL-2.1-only
+
+PACKAGE NAME: libtirpc
+PACKAGE VERSION: 1.3.3
+RECIPE NAME: libtirpc
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: libudev
+PACKAGE VERSION: 251.8
+RECIPE NAME: systemd
+LICENSE: GPL-2.0-only & LGPL-2.1-only
+
+PACKAGE NAME: libwrap
+PACKAGE VERSION: 7.6
+RECIPE NAME: tcp-wrappers
+LICENSE: BSD-1-Clause
+
+PACKAGE NAME: libx11
+PACKAGE VERSION: 1.8.1
+RECIPE NAME: libx11
+LICENSE: MIT & MIT & BSD-1-Clause & HPND & HPND-sell-variant
+
+PACKAGE NAME: libxau
+PACKAGE VERSION: 1.0.10
+RECIPE NAME: libxau
+LICENSE: MIT
+
+PACKAGE NAME: libxcb
+PACKAGE VERSION: 1.15
+RECIPE NAME: libxcb
+LICENSE: MIT
+
+PACKAGE NAME: libxcrypt
+PACKAGE VERSION: 4.4.30
+RECIPE NAME: libxcrypt
+LICENSE: LGPL-2.1-only
+
+PACKAGE NAME: libxdmcp
+PACKAGE VERSION: 1.1.3
+RECIPE NAME: libxdmcp
+LICENSE: MIT
+
+PACKAGE NAME: libzstd
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: zstd
+LICENSE: BSD-3-Clause & GPL-2.0-only
+
+PACKAGE NAME: linux-xlnx-udev-rules
+PACKAGE VERSION: 1.0
+RECIPE NAME: linux-xlnx-udev-rules
+LICENSE: MIT
+
+PACKAGE NAME: modutils-initscripts
+PACKAGE VERSION: 1.0
+RECIPE NAME: modutils-initscripts
+LICENSE: MIT
+
+PACKAGE NAME: mtd-utils
+PACKAGE VERSION: 2.1.5
+RECIPE NAME: mtd-utils
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: ncurses-libncursesw
+PACKAGE VERSION: 6.3+20220423
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-libpanelw
+PACKAGE VERSION: 6.3+20220423
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-libtinfo
+PACKAGE VERSION: 6.3+20220423
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-terminfo-base
+PACKAGE VERSION: 6.3+20220423
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: netbase
+PACKAGE VERSION: 6.3
+RECIPE NAME: netbase
+LICENSE: GPL-2.0-only
+
+PACKAGE NAME: nfs-utils
+PACKAGE VERSION: 2.6.2
+RECIPE NAME: nfs-utils
+LICENSE: MIT & GPL-2.0-or-later & BSD-3-Clause
+
+PACKAGE NAME: nfs-utils-client
+PACKAGE VERSION: 2.6.2
+RECIPE NAME: nfs-utils
+LICENSE: MIT & GPL-2.0-or-later & BSD-3-Clause
+
+PACKAGE NAME: nfs-utils-mount
+PACKAGE VERSION: 2.6.2
+RECIPE NAME: nfs-utils
+LICENSE: MIT & GPL-2.0-or-later & BSD-3-Clause
+
+PACKAGE NAME: openssh
+PACKAGE VERSION: 9.0p1
+RECIPE NAME: openssh
+LICENSE: BSD-2-Clause & BSD-3-Clause & ISC & MIT
+
+PACKAGE NAME: openssh-keygen
+PACKAGE VERSION: 9.0p1
+RECIPE NAME: openssh
+LICENSE: BSD-2-Clause & BSD-3-Clause & ISC & MIT
+
+PACKAGE NAME: openssh-scp
+PACKAGE VERSION: 9.0p1
+RECIPE NAME: openssh
+LICENSE: BSD-2-Clause & BSD-3-Clause & ISC & MIT
+
+PACKAGE NAME: openssh-sftp-server
+PACKAGE VERSION: 9.0p1
+RECIPE NAME: openssh
+LICENSE: BSD-2-Clause & BSD-3-Clause & ISC & MIT
+
+PACKAGE NAME: openssh-ssh
+PACKAGE VERSION: 9.0p1
+RECIPE NAME: openssh
+LICENSE: BSD-2-Clause & BSD-3-Clause & ISC & MIT
+
+PACKAGE NAME: openssh-sshd
+PACKAGE VERSION: 9.0p1
+RECIPE NAME: openssh
+LICENSE: BSD-2-Clause & BSD-3-Clause & ISC & MIT
+
+PACKAGE NAME: openssl
+PACKAGE VERSION: 3.0.7
+RECIPE NAME: openssl
+LICENSE: Apache-2.0
+
+PACKAGE NAME: openssl-bin
+PACKAGE VERSION: 3.0.7
+RECIPE NAME: openssl
+LICENSE: Apache-2.0
+
+PACKAGE NAME: openssl-conf
+PACKAGE VERSION: 3.0.7
+RECIPE NAME: openssl
+LICENSE: Apache-2.0
+
+PACKAGE NAME: openssl-ossl-module-legacy
+PACKAGE VERSION: 3.0.7
+RECIPE NAME: openssl
+LICENSE: Apache-2.0
+
+PACKAGE NAME: os-release
+PACKAGE VERSION: 1.0
+RECIPE NAME: os-release
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-core-boot
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-core-boot
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-core-ssh-openssh
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-core-ssh-openssh
+LICENSE: MIT
+
+PACKAGE NAME: pam-plugin-deny
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-env
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-faildelay
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-group
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-keyinit
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-lastlog
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-limits
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-loginuid
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-mail
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-motd
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-nologin
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-permit
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-rootok
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-securetty
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-shells
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-unix
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pam-plugin-warn
+PACKAGE VERSION: 1.5.2
+RECIPE NAME: libpam
+LICENSE: GPL-2.0-or-later | BSD-3-Clause
+
+PACKAGE NAME: pciutils
+PACKAGE VERSION: 3.8.0
+RECIPE NAME: pciutils
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: pciutils-ids
+PACKAGE VERSION: 3.8.0
+RECIPE NAME: pciutils
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: python3-2to3
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-asyncio
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-audio
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-codecs
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-compile
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-compression
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-core
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-crypt
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-ctypes
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-curses
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-datetime
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-db
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-debugger
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-difflib
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-distutils
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-doctest
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-email
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-fcntl
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-html
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-idle
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-image
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-io
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-json
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-logging
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-mailbox
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-math
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-mime
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-misc
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-mmap
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-modules
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-multiprocessing
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-netclient
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-netserver
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-numbers
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-pickle
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-pkgutil
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-plistlib
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-pprint
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-profile
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-pydoc
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-resource
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-shell
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-smtpd
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-sqlite3
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-statistics
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-stringold
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-syslog
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-terminal
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-threading
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-tkinter
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-unittest
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-unixadmin
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-venv
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-xml
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: python3-xmlrpc
+PACKAGE VERSION: 3.10.6
+RECIPE NAME: python3
+LICENSE: PSF-2.0
+
+PACKAGE NAME: readline
+PACKAGE VERSION: 8.1.2
+RECIPE NAME: readline
+LICENSE: GPL-3.0-or-later
+
+PACKAGE NAME: rpcbind
+PACKAGE VERSION: 1.2.6
+RECIPE NAME: rpcbind
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: run-postinsts
+PACKAGE VERSION: 1.0
+RECIPE NAME: run-postinsts
+LICENSE: MIT
+
+PACKAGE NAME: shadow
+PACKAGE VERSION: 4.12.3
+RECIPE NAME: shadow
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: shadow-base
+PACKAGE VERSION: 4.12.3
+RECIPE NAME: shadow
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: shadow-securetty
+PACKAGE VERSION: 4.6
+RECIPE NAME: shadow-securetty
+LICENSE: MIT
+
+PACKAGE NAME: sudo
+PACKAGE VERSION: 1.9.12p1
+RECIPE NAME: sudo
+LICENSE: ISC & BSD-3-Clause & BSD-2-Clause & Zlib
+
+PACKAGE NAME: sudo-lib
+PACKAGE VERSION: 1.9.12p1
+RECIPE NAME: sudo
+LICENSE: ISC & BSD-3-Clause & BSD-2-Clause & Zlib
+
+PACKAGE NAME: sudo-sudo
+PACKAGE VERSION: 1.9.12p1
+RECIPE NAME: sudo
+LICENSE: ISC & BSD-3-Clause & BSD-2-Clause & Zlib
+
+PACKAGE NAME: systemd
+PACKAGE VERSION: 251.8
+RECIPE NAME: systemd
+LICENSE: GPL-2.0-only & LGPL-2.1-only
+
+PACKAGE NAME: systemd-compat-units
+PACKAGE VERSION: 1.0
+RECIPE NAME: systemd-compat-units
+LICENSE: MIT
+
+PACKAGE NAME: systemd-conf
+PACKAGE VERSION: 1.0
+RECIPE NAME: systemd-conf
+LICENSE: MIT
+
+PACKAGE NAME: systemd-extra-utils
+PACKAGE VERSION: 251.8
+RECIPE NAME: systemd
+LICENSE: GPL-2.0-only & LGPL-2.1-only
+
+PACKAGE NAME: systemd-serialgetty
+PACKAGE VERSION: 1.0
+RECIPE NAME: systemd-serialgetty
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: systemd-udev-rules
+PACKAGE VERSION: 251.8
+RECIPE NAME: systemd
+LICENSE: GPL-2.0-only & LGPL-2.1-only
+
+PACKAGE NAME: systemd-vconsole-setup
+PACKAGE VERSION: 251.8
+RECIPE NAME: systemd
+LICENSE: GPL-2.0-only & LGPL-2.1-only
+
+PACKAGE NAME: tcf-agent
+PACKAGE VERSION: 1.7.0+gitAUTOINC+2735e3d6b7
+RECIPE NAME: tcf-agent
+LICENSE: EPL-1.0 | EDL-1.0
+
+PACKAGE NAME: tcl
+PACKAGE VERSION: 8.6.11
+RECIPE NAME: tcl
+LICENSE: TCL & BSD-3-Clause
+
+PACKAGE NAME: tcl-lib
+PACKAGE VERSION: 8.6.11
+RECIPE NAME: tcl
+LICENSE: TCL & BSD-3-Clause
+
+PACKAGE NAME: u-boot-tools-xlnx
+PACKAGE VERSION: v2023.01-xilinx-v2023.1+gitAUTOINC+8624651f9a
+RECIPE NAME: u-boot-tools-xlnx
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: u-boot-tools-xlnx-mkenvimage
+PACKAGE VERSION: v2023.01-xilinx-v2023.1+gitAUTOINC+8624651f9a
+RECIPE NAME: u-boot-tools-xlnx
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: u-boot-tools-xlnx-mkimage
+PACKAGE VERSION: v2023.01-xilinx-v2023.1+gitAUTOINC+8624651f9a
+RECIPE NAME: u-boot-tools-xlnx
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: u-boot-xlnx-scr
+PACKAGE VERSION: 1.0
+RECIPE NAME: u-boot-xlnx-scr
+LICENSE: MIT
+
+PACKAGE NAME: udev
+PACKAGE VERSION: 251.8
+RECIPE NAME: systemd
+LICENSE: GPL-2.0-only & LGPL-2.1-only
+
+PACKAGE NAME: udev-extraconf
+PACKAGE VERSION: 1.1
+RECIPE NAME: udev-extraconf
+LICENSE: MIT
+
+PACKAGE NAME: udev-hwdb
+PACKAGE VERSION: 251.8
+RECIPE NAME: systemd
+LICENSE: GPL-2.0-only & LGPL-2.1-only
+
+PACKAGE NAME: update-alternatives-opkg
+PACKAGE VERSION: 0.5.0
+RECIPE NAME: opkg-utils
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: update-rc.d
+PACKAGE VERSION: 0.8
+RECIPE NAME: update-rc.d
+LICENSE: GPL-2.0-or-later
+
+PACKAGE NAME: util-linux-agetty
+PACKAGE VERSION: 2.38.1
+RECIPE NAME: util-linux
+LICENSE: GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: util-linux-blkid
+PACKAGE VERSION: 2.38.1
+RECIPE NAME: util-linux
+LICENSE: GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: util-linux-fsck
+PACKAGE VERSION: 2.38.1
+RECIPE NAME: util-linux
+LICENSE: GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: util-linux-libblkid
+PACKAGE VERSION: 2.38.1
+RECIPE NAME: util-linux
+LICENSE: LGPL-2.1-or-later
+
+PACKAGE NAME: util-linux-libmount
+PACKAGE VERSION: 2.38.1
+RECIPE NAME: util-linux
+LICENSE: LGPL-2.1-or-later
+
+PACKAGE NAME: util-linux-libsmartcols
+PACKAGE VERSION: 2.38.1
+RECIPE NAME: util-linux
+LICENSE: LGPL-2.1-or-later
+
+PACKAGE NAME: util-linux-libuuid
+PACKAGE VERSION: 2.38.1
+RECIPE NAME: util-linux-libuuid
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: util-linux-lsblk
+PACKAGE VERSION: 2.38.1
+RECIPE NAME: util-linux
+LICENSE: GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: util-linux-mount
+PACKAGE VERSION: 2.38.1
+RECIPE NAME: util-linux
+LICENSE: GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: util-linux-sulogin
+PACKAGE VERSION: 2.38.1
+RECIPE NAME: util-linux
+LICENSE: GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: util-linux-umount
+PACKAGE VERSION: 2.38.1
+RECIPE NAME: util-linux
+LICENSE: GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: volatile-binds
+PACKAGE VERSION: 1.0
+RECIPE NAME: volatile-binds
+LICENSE: MIT
+
+PACKAGE NAME: zlib
+PACKAGE VERSION: 1.2.13
+RECIPE NAME: zlib
+LICENSE: Zlib
+

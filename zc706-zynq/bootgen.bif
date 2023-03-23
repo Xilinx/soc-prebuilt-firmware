@@ -1,0 +1,7 @@
+the_ROM_image:
+{
+	[bootloader] zynq_fsbl.elf
+	pre-built/linux/implementation/download.bit
+	u-boot.elf
+	[load=0x00100000] system.dtb
+}
