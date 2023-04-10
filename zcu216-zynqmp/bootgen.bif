@@ -1,9 +1,9 @@
 the_ROM_image:
 {
-	[bootloader, destination_cpu=a53-0] zynqmp_fsbl.elf
-	[pmufw_image] pmufw.elf
-	[destination_device=pl] pre-built/linux/implementation/download.bit
-	[destination_cpu=a53-0, exception_level=el-3, trustzone] bl31.elf
-	[destination_cpu=a53-0, load=0x00100000] system.dtb
-	[destination_cpu=a53-0, exception_level=el-2] u-boot.elf
+	[bootloader, destination_cpu=a53-0] zcu216-zynqmp/zynqmp_fsbl.elf
+	[pmufw_image] zcu216-zynqmp/pmufw.elf
+	[destination_device=pl] zcu216-zynqmp/download.bit
+	[destination_cpu=a53-0, exception_level=el-3, trustzone] zcu216-zynqmp/bl31.elf
+	[destination_cpu=a53-0, load=0x00100000] zcu216-zynqmp/system.dtb
+	[destination_cpu=a53-0, exception_level=el-2] zcu216-zynqmp/u-boot.elf
 }

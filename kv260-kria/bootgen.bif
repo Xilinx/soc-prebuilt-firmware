@@ -1,9 +1,9 @@
 the_ROM_image:
 {
-	[bootloader, destination_cpu=a53-0] zynqmp_fsbl.elf
-	[pmufw_image] pmufw.elf
-	[destination_device=pl] pre-built/linux/implementation/download.bit
-	[destination_cpu=a53-0, exception_level=el-3, trustzone] bl31.elf
-	[destination_cpu=a53-0, load=0x00100000] system-zynqmp-sck-kv-g-revB.dtb
-	[destination_cpu=a53-0, exception_level=el-2] u-boot.elf
+	[bootloader, destination_cpu=a53-0] kv260-kria/zynqmp_fsbl.elf
+	[pmufw_image] kv260-kria/pmufw.elf
+	[destination_device=pl] kv260-kria/download.bit
+	[destination_cpu=a53-0, exception_level=el-3, trustzone] kv260-kria/bl31.elf
+	[destination_cpu=a53-0, load=0x00100000] kv260-kria/system-zynqmp-sck-kv-g-revB.dtb
+	[destination_cpu=a53-0, exception_level=el-2] kv260-kria/u-boot.elf
 }

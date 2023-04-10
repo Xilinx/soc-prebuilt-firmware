@@ -1,14 +1,14 @@
 the_ROM_image:
 {
 image {
-	{ type=bootimage, file=project-spec/hw-description/project_1.pdi }
-	{ type=bootloader, file=plm.elf }
-	{ core=psm, file=psmfw.elf }
+	{ type=bootimage, file=vpk180-versal/project_1.pdi }
+	{ type=bootloader, file=vpk180-versal/plm.elf }
+	{ core=psm, file=vpk180-versal/psmfw.elf }
 }
 image {
 	id = 0x1c000000, name=apu_subsystem 
-	{ type=raw, load=0x00001000, file=system.dtb }
-	{ core=a72-0, exception_level=el-3, trustzone, file=bl31.elf }
-	{ core=a72-0, exception_level=el-2, file=u-boot.elf }
+	{ type=raw, load=0x00001000, file=vpk180-versal/system.dtb }
+	{ core=a72-0, exception_level=el-3, trustzone, file=vpk180-versal/bl31.elf }
+	{ core=a72-0, exception_level=el-2, file=vpk180-versal/u-boot.elf }
 }
 }
