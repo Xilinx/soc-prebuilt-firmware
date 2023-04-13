@@ -1,9 +1,9 @@
 the_ROM_image:
 {
-	[bootloader, destination_cpu=a53-0] k26-som-kria/zynqmp_fsbl.elf
-	[pmufw_image] k26-som-kria/pmufw.elf
-	[destination_device=pl] k26-som-kria/download.bit
-	[destination_cpu=a53-0, exception_level=el-3, trustzone] k26-som-kria/bl31.elf
-	[destination_cpu=a53-0, load=0x00100000] k26-som-kria/system.dtb
-	[destination_cpu=a53-0, exception_level=el-2] k26-som-kria/u-boot.elf
+	[bootloader, destination_cpu=a53-0] zynqmp_fsbl.elf
+	[pmufw_image] pmufw.elf
+	[destination_device=pl] download.bit
+	[destination_cpu=a53-0, exception_level=el-3, trustzone] bl31.elf
+	[destination_cpu=a53-0, load=0x00100000] system.dtb
+	[destination_cpu=a53-0, exception_level=el-2] u-boot.elf
 }

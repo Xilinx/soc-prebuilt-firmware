@@ -5,7 +5,7 @@ $(error board is not set)
 endif
 
 all: bootgen.$(bootgen_version)
-	./bootgen.$(bootgen_version) -w -image $(board)/bootgen.bif -arch $(arch) -o $(board)/BOOT.BIN
+	cd $(board) && ../bootgen.$(bootgen_version) -w -image bootgen.bif -arch $(arch) -o BOOT.BIN
 bootgen.$(bootgen_version): bootgen.git.$(bootgen_version)
 	ln -s bootgen.git.$(bootgen_version)/bootgen bootgen.$(bootgen_version)
 bootgen.git.$(bootgen_version):

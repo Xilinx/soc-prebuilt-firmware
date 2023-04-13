@@ -1,7 +1,7 @@
 the_ROM_image:
 {
-	[bootloader] zc706-zynq/zynq_fsbl.elf
-	zc702-zynq/download.bit
-	zc706-zynq/u-boot.elf
-	[load=0x00100000] zc706-zynq/system.dtb
+	[bootloader] zynq_fsbl.elf
+	download.bit
+	u-boot.elf
+	[load=0x00100000] system.dtb
 }

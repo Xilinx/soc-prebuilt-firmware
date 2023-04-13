@@ -1,9 +1,9 @@
 the_ROM_image:
 {
-	[bootloader, destination_cpu=a53-0] zcu1275-zynqmp/zynqmp_fsbl.elf
-	[pmufw_image] zcu1275-zynqmp/pmufw.elf
-	[destination_device=pl] zcu1275-zynqmp/download.bit
-	[destination_cpu=a53-0, exception_level=el-3, trustzone] zcu1275-zynqmp/bl31.elf
-	[destination_cpu=a53-0, load=0x00100000] zcu1275-zynqmp/system.dtb
-	[destination_cpu=a53-0, exception_level=el-2] zcu1275-zynqmp/u-boot.elf
+	[bootloader, destination_cpu=a53-0] zynqmp_fsbl.elf
+	[pmufw_image] pmufw.elf
+	[destination_device=pl] download.bit
+	[destination_cpu=a53-0, exception_level=el-3, trustzone] bl31.elf
+	[destination_cpu=a53-0, load=0x00100000] system.dtb
+	[destination_cpu=a53-0, exception_level=el-2] u-boot.elf
 }

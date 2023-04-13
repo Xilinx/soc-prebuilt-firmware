@@ -1,14 +1,14 @@
 the_ROM_image:
 {
 image {
-	{ type=bootimage, file=vck190-versal/vpl_gen_fixed.pdi }
-	{ type=bootloader, file=vck190-versal/plm.elf }
-	{ core=psm, file=vck190-versal/psmfw.elf }
+	{ type=bootimage, file=vpl_gen_fixed.pdi }
+	{ type=bootloader, file=plm.elf }
+	{ core=psm, file=psmfw.elf }
 }
 image {
 	id = 0x1c000000, name=apu_subsystem 
-	{ type=raw, load=0x00001000, file=vck190-versal/system.dtb }
-	{ core=a72-0, exception_level=el-3, trustzone, file=vck190-versal/bl31.elf }
-	{ core=a72-0, exception_level=el-2, file=vck190-versal/u-boot.elf }
+	{ type=raw, load=0x00001000, file=system.dtb }
+	{ core=a72-0, exception_level=el-3, trustzone, file=bl31.elf }
+	{ core=a72-0, exception_level=el-2, file=u-boot.elf }
 }
 }
