@@ -1,0 +1,206 @@
+COPYRIGHT TEXT:
+---------------
+
+The files distributed with this project are provided in binary form under the following free and
+permissive binary-only license; source files are not provided.  While the following free and 
+permissive license is similar to the MIT open source license, this it is NOT the MIT open source 
+license or any other OSI-approved open-source license.
+
+Copyright (c) 2023 Advanced Micro Devices, Inc / Xilinx, Inc All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and 
+associated documentation files (the "Software"), to deal in the Software without restriction, including 
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or 
+sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject 
+to the following conditions: 
+
+The above copyright notice and this permission notice shall be included in all copies or substantial 
+portions of the Software. 
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT 
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+SPDX-License-Identifier: MIT
+
+Files:
+
+zcu106-zynqmp/bootgen.bif
+zcu106-zynqmp/system.dtb
+zcu106-zynqmp/pmufw.elf
+zcu106-zynqmp/zynqmp_fsbl.elf
+
+zcu104-zynqmp/bootgen.bif
+zcu104-zynqmp/system.dtb
+zcu104-zynqmp/pmufw.elf
+zcu104-zynqmp/zynqmp_fsbl.elf
+
+kr260-kria/bootgen.bif
+kr260-kria/pmufw.elf
+kr260-kria/zynqmp_fsbl.elf
+kr260-kria/system-zynqmp-sck-kr-g-revB.dtb
+
+k26-som-kria/bootgen.bif
+k26-som-kria/system.dtb
+k26-som-kria/pmufw.elf
+k26-som-kria/zynqmp_fsbl.elf
+
+zc702-zynq/bootgen.bif
+zc702-zynq/system.dtb
+
+zcu102-zynqmp/bootgen.bif
+zcu102-zynqmp/system.dtb
+zcu102-zynqmp/pmufw.elf
+zcu102-zynqmp/zynqmp_fsbl.elf
+
+kv260-kria/bootgen.bif
+kv260-kria/pmufw.elf
+kv260-kria/zynqmp_fsbl.elf
+kv260-kria/system-zynqmp-sck-kv-g-revB.dtb
+
+vpk120-versal/bootgen.bif
+vpk120-versal/system.dtb
+vpk120-versal/plm.elf
+vpk120-versal/psmfw.elf
+vpk120-versal/project_1.pdi
+
+zcu1275-zynqmp/bootgen.bif
+zcu1275-zynqmp/system.dtb
+zcu1275-zynqmp/pmufw.elf
+zcu1275-zynqmp/zynqmp_fsbl.elf
+
+zcu111-zynqmp/bootgen.bif
+zcu111-zynqmp/system.dtb
+zcu111-zynqmp/pmufw.elf
+zcu111-zynqmp/zynqmp_fsbl.elf
+
+zc706-zynq/bootgen.bif
+zc706-zynq/system.dtb
+
+vpk180-versal/bootgen.bif
+vpk180-versal/system.dtb
+vpk180-versal/plm.elf
+vpk180-versal/psmfw.elf
+vpk180-versal/project_1.pdi
+
+vmk180-versal/bootgen.bif
+vmk180-versal/system.dtb
+vmk180-versal/plm.elf
+vmk180-versal/psmfw.elf
+vmk180-versal/project_1.pdi
+
+vck190-versal/bootgen.bif
+vck190-versal/system.dtb
+vck190-versal/plm.elf
+vck190-versal/psmfw.elf
+vck190-versal/vpl_gen_fixed.pdi
+
+zcu216-zynqmp/bootgen.bif
+zcu216-zynqmp/system.dtb
+zcu216-zynqmp/pmufw.elf
+zcu216-zynqmp/zynqmp_fsbl.elf
+
+---------------------------------------------------------------------------------------------------
+
+COPYRIGHT TEXT:
+---------------
+
+Copyright (c) 2013-2018, Arm Limited and Contributors. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+-  Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+-  Redistributions in binary form must reproduce the above copyright notice, this
+   list of conditions and the following disclaimer in the documentation and/or
+   other materials provided with the distribution.
+
+-  Neither the name of Arm nor the names of its contributors may be used to
+   endorse or promote products derived from this software without specific prior
+   written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+SPDX-License-Identifier:    BSD-3-Clause
+
+Files: 
+
+zcu106-zynqmp/bl31.elf
+zcu104-zynqmp/bl31.elf
+kr260-kria/bl31.elf
+k26-som-kria/bl31.elf
+zcu102-zynqmp/bl31.elf
+kv260-kria/bl31.elf
+vpk120-versal/bl31.elf
+zcu1275-zynqmp/bl31.elf
+zcu111-zynqmp/bl31.elf
+vpk180-versal/bl31.elf
+vmk180-versal/bl31.elf
+vck190-versal/bl31.elf
+zcu216-zynqmp/bl31.elf
+
+zcu106-zynqmp/u-boot.elf
+zcu104-zynqmp/u-boot.elf
+kr260-kria/u-boot.elf
+k26-som-kria/u-boot.elf
+zc702-zynq/u-boot.elf
+zcu102-zynqmp/u-boot.elf
+kv260-kria/u-boot.elf
+vpk120-versal/u-boot.elf
+zcu1275-zynqmp/u-boot.elf
+zcu111-zynqmp/u-boot.elf
+zc706-zynq/u-boot.elf
+vpk180-versal/u-boot.elf
+vmk180-versal/u-boot.elf
+vck190-versal/u-boot.elf
+zcu216-zynqmp/u-boot.elf
+
+---------------------------------------------------------------------------------------------------
+
+
+COPYRIGHT TEXT:
+---------------
+Copyright (c) 2023 Advanced Micro Devices, Inc / Xilinx, Inc This program is free software; you can
+redistribute it and/or modify it under the terms of the GNU General Public
+License as published by the Free Software Foundation; either version 2 of the
+License, or (at your option) any later version. This program is distributed in
+the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details. You should have received a copy of
+the GNU General Public License along with this program; if not, see
+<http://www.gnu.org/licenses/>
+
+SPDX-License-Identifier: GPL-2.0 /
+
+FILES:
+
+zcu106-zynqmp/system.dts
+zcu104-zynqmp/system.dts
+kr260-kria/system.dts
+k26-som-kria/system.dts
+zc702-zynq/system.dts
+zcu102-zynqmp/system.dts
+kv260-kria/system.dts
+vpk120-versal/system.dts
+zcu1275-zynqmp/system.dts
+zcu111-zynqmp/system.dts
+zc706-zynq/system.dts
+vpk180-versal/system.dts
+vmk180-versal/system.dts
+vck190-versal/system.dts
+zcu216-zynqmp/system.dts
+
+--------------------------------------------------------------------------------
