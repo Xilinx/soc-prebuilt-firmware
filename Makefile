@@ -1,4 +1,4 @@
-bootgen_version ?= xlnx_rel_v2022.2
+bootgen_version ?= xlnx_rel_v2023.1
 
 ifndef board
 $(error board is not set)
