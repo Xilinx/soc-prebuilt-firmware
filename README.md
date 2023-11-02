@@ -14,6 +14,7 @@ This repository contains a series of boot asset files required to rebuild a BOOT
 |vpk120-versal  | [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with PetaLinux 2023.2 |
 |vpk180-versal  | [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with PetaLinux 2023.2 |
 |vhk158-versal  | [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with PetaLinux 2023.2 |
+|vek280-versal  | [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with PetaLinux 2023.2 |
 |zc702-zynq     | [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with PetaLinux 2023.2 |
 |zc706-zynq     | [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with PetaLinux 2023.2 |
 |zcu102-zynqmp  | [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with PetaLinux 2023.2 |
