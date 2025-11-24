@@ -1,0 +1,7 @@
+the_ROM_image:
+{
+	optionaldata { bootbin-version-header-zynq-zc702-sdt-full.bin,  id=0x22 }
+	 [bootloader] fsbl.elf
+	 u-boot.elf
+	 [load=0x100000] cortexa9-linux.dtb
+}

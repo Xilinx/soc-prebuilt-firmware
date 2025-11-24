@@ -1,0 +1,16 @@
+the_ROM_image:
+{
+	optionaldata { bootbin-version-header-versal-vck190-sdt-seg.bin,  id=0x22 }
+	optionaldata { bootbin-version-string-versal-vck190-sdt-seg.txt,  id=0x21 }
+	image {
+	 { type=bootimage, file=base-design.pdi }
+	 { type=bootloader, file=plmfw.elf }
+	 { core=psm, file=psmfw.elf }
+	}
+	image {
+	 id = 0x1c000000, name=apu_ss
+	 { type=raw,  load=0x1000, file=cortexa72-linux.dtb }
+	 { core=a72-0,  exception_level = el-3,  trustzone, file=arm-trusted-firmware.elf }
+	 { core=a72-0,  exception_level = el-2, file=u-boot.elf }
+	}
+}
