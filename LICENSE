@@ -28,79 +28,54 @@ SPDX-License-Identifier: MIT
 Files:
 
 zcu106-zynqmp/bootgen.bif
-zcu106-zynqmp/system.dtb
+zcu106-zynqmp/cortexa53-linux.dtb
 zcu106-zynqmp/pmufw.elf
-zcu106-zynqmp/zynqmp_fsbl.elf
+zcu106-zynqmp/fsbl.elf
 
 zcu104-zynqmp/bootgen.bif
-zcu104-zynqmp/system.dtb
+zcu104-zynqmp/cortexa53-linux.dtb
 zcu104-zynqmp/pmufw.elf
-zcu104-zynqmp/zynqmp_fsbl.elf
+zcu104-zynqmp/fsbl.elf
 
 kr260-kria/bootgen.bif
 kr260-kria/pmufw.elf
-kr260-kria/zynqmp_fsbl.elf
-kr260-kria/system-zynqmp-sck-kr-g-revB.dtb
-
-k26-som-kria/bootgen.bif
-k26-som-kria/system.dtb
-k26-som-kria/pmufw.elf
-k26-som-kria/zynqmp_fsbl.elf
+kr260-kria/fsbl.elf
 
 zc702-zynq/bootgen.bif
 zc702-zynq/system.dtb
 
 zcu102-zynqmp/bootgen.bif
-zcu102-zynqmp/system.dtb
+zcu102-zynqmp/cortexa53-linux.dtb
 zcu102-zynqmp/pmufw.elf
-zcu102-zynqmp/zynqmp_fsbl.elf
+zcu102-zynqmp/fsbl.elf
 
 kv260-kria/bootgen.bif
 kv260-kria/pmufw.elf
-kv260-kria/zynqmp_fsbl.elf
-kv260-kria/system-zynqmp-sck-kv-g-revB.dtb
+kv260-kria/fsbl.elf
 
 vpk120-versal/bootgen.bif
-vpk120-versal/system.dtb
+vpk120-versal/cortexa72-linux.dtb
 vpk120-versal/plm.elf
 vpk120-versal/psmfw.elf
-vpk120-versal/project_1.pdi
-
-zcu1275-zynqmp/bootgen.bif
-zcu1275-zynqmp/system.dtb
-zcu1275-zynqmp/pmufw.elf
-zcu1275-zynqmp/zynqmp_fsbl.elf
-
-zcu111-zynqmp/bootgen.bif
-zcu111-zynqmp/system.dtb
-zcu111-zynqmp/pmufw.elf
-zcu111-zynqmp/zynqmp_fsbl.elf
-
-zc706-zynq/bootgen.bif
-zc706-zynq/system.dtb
+vpk120-versal/base-design.pdi
 
 vpk180-versal/bootgen.bif
-vpk180-versal/system.dtb
+vpk180-versal/cortexa72-linux.dtb
 vpk180-versal/plm.elf
 vpk180-versal/psmfw.elf
 vpk180-versal/project_1.pdi
 
 vmk180-versal/bootgen.bif
-vmk180-versal/system.dtb
+vmk180-versal/cortexa72-linux.dtb
 vmk180-versal/plm.elf
 vmk180-versal/psmfw.elf
-vmk180-versal/project_1.pdi
+vmk180-versal/base-design.pdi
 
 vck190-versal/bootgen.bif
-vck190-versal/system.dtb
+vck190-versal/cortexa72-linux.dtb
 vck190-versal/plm.elf
 vck190-versal/psmfw.elf
-vck190-versal/vpl_gen_fixed.pdi
-
-zcu216-zynqmp/bootgen.bif
-zcu216-zynqmp/system.dtb
-zcu216-zynqmp/pmufw.elf
-zcu216-zynqmp/zynqmp_fsbl.elf
+vck190-versal/base-design.pdi
 
 ---------------------------------------------------------------------------------------------------
 
@@ -138,69 +113,29 @@ SPDX-License-Identifier:    BSD-3-Clause
 
 Files: 
 
-zcu106-zynqmp/bl31.elf
-zcu104-zynqmp/bl31.elf
-kr260-kria/bl31.elf
-k26-som-kria/bl31.elf
-zcu102-zynqmp/bl31.elf
-kv260-kria/bl31.elf
-vpk120-versal/bl31.elf
-zcu1275-zynqmp/bl31.elf
-zcu111-zynqmp/bl31.elf
-vpk180-versal/bl31.elf
-vmk180-versal/bl31.elf
-vck190-versal/bl31.elf
-zcu216-zynqmp/bl31.elf
+zcu106-zynqmp/arm-trusted-firmware.elf
+zcu104-zynqmp/arm-trusted-firmware.elf
+kr260-kria/arm-trusted-firmware.elf
+zcu102-zynqmp/arm-trusted-firmware.elf
+kv260-kria/arm-trusted-firmware.elf
+kd240-kria/arm-trusted-firmware.elf
+vpk120-versal/arm-trusted-firmware.elf
+vpk180-versal/arm-trusted-firmware.elf
+vmk180-versal/arm-trusted-firmware.elf
+vck190-versal/arm-trusted-firmware.elf
+zcu216-zynqmp/arm-trusted-firmware.elf
 
 zcu106-zynqmp/u-boot.elf
 zcu104-zynqmp/u-boot.elf
 kr260-kria/u-boot.elf
-k26-som-kria/u-boot.elf
+kv260-kria/u-boot.elf
+kd240-kria/u-boot.elf
 zc702-zynq/u-boot.elf
 zcu102-zynqmp/u-boot.elf
-kv260-kria/u-boot.elf
 vpk120-versal/u-boot.elf
-zcu1275-zynqmp/u-boot.elf
-zcu111-zynqmp/u-boot.elf
-zc706-zynq/u-boot.elf
 vpk180-versal/u-boot.elf
 vmk180-versal/u-boot.elf
 vck190-versal/u-boot.elf
 zcu216-zynqmp/u-boot.elf
 
 ---------------------------------------------------------------------------------------------------
-
-
-COPYRIGHT TEXT:
----------------
-Copyright (c) 2023 Advanced Micro Devices, Inc / Xilinx, Inc This program is free software; you can
-redistribute it and/or modify it under the terms of the GNU General Public
-License as published by the Free Software Foundation; either version 2 of the
-License, or (at your option) any later version. This program is distributed in
-the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the
-implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details. You should have received a copy of
-the GNU General Public License along with this program; if not, see
-<http://www.gnu.org/licenses/>
-
-SPDX-License-Identifier: GPL-2.0 /
-
-FILES:
-
-zcu106-zynqmp/system.dts
-zcu104-zynqmp/system.dts
-kr260-kria/system.dts
-k26-som-kria/system.dts
-zc702-zynq/system.dts
-zcu102-zynqmp/system.dts
-kv260-kria/system.dts
-vpk120-versal/system.dts
-zcu1275-zynqmp/system.dts
-zcu111-zynqmp/system.dts
-zc706-zynq/system.dts
-vpk180-versal/system.dts
-vmk180-versal/system.dts
-vck190-versal/system.dts
-zcu216-zynqmp/system.dts
-
---------------------------------------------------------------------------------
