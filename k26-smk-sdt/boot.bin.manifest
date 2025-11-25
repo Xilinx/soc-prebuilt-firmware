@@ -1,0 +1,35 @@
+SHA1: 1a915810cc96d1fbbf1ce2884ed6c5b247c38354
+
+* bootbin-version-header
+VERSION: 1-20251115173103
+PV: 1.0
+XILINX_VER_MAIN: None
+XILINX_VER_UPDATE: None
+XILINX_VER_BUILD: None
+
+* fsbl-firmware
+SRCREV: INVALID
+BRANCH: xlnx_rel_v2025.2
+
+* pmu-firmware
+SRCREV: INVALID
+BRANCH: xlnx_rel_v2025.2
+
+* trusted-firmware-a
+SRCREV: INVALID
+BRANCH: 
+
+* u-boot-xlnx
+SRCREV: 5e0d8abc7e092b62a5de17aa7aadfad7af5f0f59
+BRANCH: xlnx_rebase_v2025.01
+
+* device-tree
+SRCREV: INVALID
+BRANCH: 
+** device-tree - u-boot-xlnx
+DT_UBOOT_SRCREV: 9c3f954a10216a5be151dfffa197dae86ed07d2b
+DT_UBOOT_BRANCH: xlnx_rebase_v2025.01
+
+* Yocto Layers
+meta-xilinx-standalone -> cab200feb893c26ba9a3ba35dc3650d7ba97a655
+meta-kria -> 660eb84415794ddd5cfca0b4a909ede40acab08e

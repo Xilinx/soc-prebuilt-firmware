@@ -1,0 +1,3 @@
+* Yocto Layers
+meta-xilinx-standalone -> cab200feb893c26ba9a3ba35dc3650d7ba97a655
+meta-kria -> 660eb84415794ddd5cfca0b4a909ede40acab08e

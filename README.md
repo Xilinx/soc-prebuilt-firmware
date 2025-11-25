@@ -4,10 +4,11 @@ This repository contains a series of boot asset files required to rebuild a BOOT
 ## File origins
 | Folder        |Origin                                                                                                                                          |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-|vek385_revb-versal_2ve_2vm	| [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with EDF 2025.2 |
+|vek385-versal_2ve_2vm	| [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with EDF 2025.2 |
 |vck190-versal  		| [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with EDF 2025.2 |
 |vmk180-versal  		| [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with EDF 2025.2 |
 |vpk120-versal  		| [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with EDF 2025.2 |
+|vpk180-versal                  | [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with Petalinux 2025.2 |
 |vek280-versal  		| [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with EDF 2025.2 |
 |zc702-zynq     		| [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with EDF 2025.2 |
 |zcu102-zynqmp  		| [BSP](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html) Built with EDF 2025.2 |
