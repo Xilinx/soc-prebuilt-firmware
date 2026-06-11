@@ -1,0 +1,25 @@
+{
+  "device-tree": {
+    "branch": "xlnx_rebase_v2026.01",
+    "srcrev": "980da51527e0a9a7a79ac218347ade2bfd5bb330"
+  },
+  "u-boot": {
+    "branch": "xlnx_rebase_v2026.01",
+    "srcrev": "9a86d4351c5e29db068a2a0e230b74d4fbd55997"
+  },
+  "trusted-firmware-a": {
+    "branch": "xlnx_rebase_v2.14",
+    "srcrev": "e9b1373a7dd9fce25b5a2fe6189dd5ec6eedf24a"
+  },
+  "plm": {
+    "branch": "xlnx_rel_v2026.1",
+    "srcrev": "2fb454742f9d42e23a46a13c0eb09e29dc52c6d1"
+  },
+  "psm-firmware": {
+    "branch": "xlnx_rel_v2026.1",
+    "srcrev": "2fb454742f9d42e23a46a13c0eb09e29dc52c6d1"
+  },
+  "bootbin-rollback-counter": {
+    "rollback_counter": "1"
+  }
+}

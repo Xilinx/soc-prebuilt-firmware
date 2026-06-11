@@ -1,0 +1,18 @@
+the_ROM_image:
+{
+	optionaldata { bootbin-version-string-versal-vek280-multidomain.txt, id=0x21 }
+	optionaldata { bootbin-rollback-counter-versal-vek280-multidomain.bin, id=0x22 }
+	optionaldata { xilinx-bootbin-aggregate.manifest.json, id=0x24 }
+	image {
+	 { type=bootimage, file=base-design.pdi }
+	 { type=bootloader, file=plmfw.elf }
+	 { core=psm, file=psmfw.elf }
+	}
+	image {
+	 id = 0x1c000000, name=apu_ss
+	 { type=raw, load=0x1000, file=cortexa72-linux.dtb }
+	 { core=a72-0, exception_level = el-3, trustzone, file=arm-trusted-firmware.elf }
+	 { core=a72-0, exception_level = el-2, file=u-boot.elf }
+	 { destination_cpu=r5-1, file=irq_shmem_demo.elf }
+	}
+}
