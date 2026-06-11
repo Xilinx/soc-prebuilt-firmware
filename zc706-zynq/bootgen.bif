@@ -1,0 +1,7 @@
+the_ROM_image:
+{
+	 [bootloader] fsbl.elf
+	 u-boot.elf
+	 [load=0x100000] cortexa9-linux.dtb
+	 [udf_bh] bootbin-version-header-zynq-zc706-sdt-full.txt
+}

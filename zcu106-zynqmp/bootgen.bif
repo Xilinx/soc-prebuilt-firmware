@@ -1,0 +1,9 @@
+the_ROM_image:
+{
+	 [bootloader, destination_cpu=a53-0] fsbl.elf
+	 [destination_cpu=pmu] pmufw.elf
+	 [destination_cpu=a53-0, exception_level=el-3, trustzone] arm-trusted-firmware.elf
+	 [destination_cpu=a53-0, load=0x100000] cortexa53-linux.dtb
+	 [destination_cpu=a53-0, exception_level=el-2] u-boot.elf
+	 [udf_bh] bootbin-version-header-zynqmp-zcu106-multidomain.txt
+}

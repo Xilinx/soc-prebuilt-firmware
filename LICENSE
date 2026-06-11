@@ -1,0 +1,145 @@
+COPYRIGHT TEXT:
+---------------
+
+The files distributed with this project are provided in binary form under the following free and
+permissive binary-only license; source files are not provided.  While the following free and 
+permissive license is similar to the MIT open source license, this it is NOT the MIT open source 
+license or any other OSI-approved open-source license.
+
+Copyright (c) 2023 Advanced Micro Devices, Inc / Xilinx, Inc All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and 
+associated documentation files (the "Software"), to deal in the Software without restriction, including 
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or 
+sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject 
+to the following conditions: 
+
+The above copyright notice and this permission notice shall be included in all copies or substantial 
+portions of the Software. 
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT 
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+SPDX-License-Identifier: MIT
+
+Files:
+
+zcu106-zynqmp/bootgen.bif
+zcu106-zynqmp/cortexa53-linux.dtb
+zcu106-zynqmp/pmufw.elf
+zcu106-zynqmp/fsbl.elf
+
+zcu104-zynqmp/bootgen.bif
+zcu104-zynqmp/cortexa53-linux.dtb
+zcu104-zynqmp/pmufw.elf
+zcu104-zynqmp/fsbl.elf
+
+kr260-kria/bootgen.bif
+kr260-kria/pmufw.elf
+kr260-kria/fsbl.elf
+
+zc702-zynq/bootgen.bif
+zc702-zynq/system.dtb
+
+zc706-zynq/bootgen.bif
+zc706-zynq/system.dtb
+
+zcu102-zynqmp/bootgen.bif
+zcu102-zynqmp/cortexa53-linux.dtb
+zcu102-zynqmp/pmufw.elf
+zcu102-zynqmp/fsbl.elf
+
+kv260-kria/bootgen.bif
+kv260-kria/pmufw.elf
+kv260-kria/fsbl.elf
+
+vpk120-versal/bootgen.bif
+vpk120-versal/cortexa72-linux.dtb
+vpk120-versal/plm.elf
+vpk120-versal/psmfw.elf
+vpk120-versal/base-design.pdi
+
+vpk180-versal/bootgen.bif
+vpk180-versal/cortexa72-linux.dtb
+vpk180-versal/plm.elf
+vpk180-versal/psmfw.elf
+vpk180-versal/project_1.pdi
+
+vmk180-versal/bootgen.bif
+vmk180-versal/cortexa72-linux.dtb
+vmk180-versal/plm.elf
+vmk180-versal/psmfw.elf
+vmk180-versal/base-design.pdi
+
+vck190-versal/bootgen.bif
+vck190-versal/cortexa72-linux.dtb
+vck190-versal/plm.elf
+vck190-versal/psmfw.elf
+vck190-versal/base-design.pdi
+
+---------------------------------------------------------------------------------------------------
+
+COPYRIGHT TEXT:
+---------------
+
+Copyright (c) 2013-2018, Arm Limited and Contributors. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+-  Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+-  Redistributions in binary form must reproduce the above copyright notice, this
+   list of conditions and the following disclaimer in the documentation and/or
+   other materials provided with the distribution.
+
+-  Neither the name of Arm nor the names of its contributors may be used to
+   endorse or promote products derived from this software without specific prior
+   written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+SPDX-License-Identifier:    BSD-3-Clause
+
+Files: 
+
+zcu106-zynqmp/arm-trusted-firmware.elf
+zcu104-zynqmp/arm-trusted-firmware.elf
+kr260-kria/arm-trusted-firmware.elf
+zcu102-zynqmp/arm-trusted-firmware.elf
+kv260-kria/arm-trusted-firmware.elf
+kd240-kria/arm-trusted-firmware.elf
+vpk120-versal/arm-trusted-firmware.elf
+vpk180-versal/arm-trusted-firmware.elf
+vmk180-versal/arm-trusted-firmware.elf
+vck190-versal/arm-trusted-firmware.elf
+zcu208-zynqmp/arm-trusted-firmware.elf
+
+zcu106-zynqmp/u-boot.elf
+zcu104-zynqmp/u-boot.elf
+kr260-kria/u-boot.elf
+kv260-kria/u-boot.elf
+kd240-kria/u-boot.elf
+zc702-zynq/u-boot.elf
+zc706-zynq/u-boot.elf
+zcu102-zynqmp/u-boot.elf
+vpk120-versal/u-boot.elf
+vpk180-versal/u-boot.elf
+vmk180-versal/u-boot.elf
+vck190-versal/u-boot.elf
+zcu208-zynqmp/u-boot.elf
+
+-----------------------------------------------
